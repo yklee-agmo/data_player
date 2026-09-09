@@ -1,0 +1,4 @@
+PyQt6>=6.5
+numpy>=1.20
+imageio-ffmpeg>=0.4.9   # 동영상 디코딩용 (ffmpeg 바이너리 포함)
+Pillow>=9.0             # 선택: Qt 가 못 읽는 이미지 포맷 대비

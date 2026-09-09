@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4a60"/>
+      <stop offset="1" stop-color="#1c232e"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="256" height="256" rx="56" ry="56"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="256" height="256" fill="url(#bg)"/>
+    <!-- 필름 스트립 -->
+    <rect x="0" y="0" width="33" height="256" fill="#141a22"/>
+    <rect x="223" y="0" width="33" height="256" fill="#141a22"/>
+    <g fill="#e8edf2">
+      <rect x="12" y="28"  width="16" height="20" rx="5"/>
+      <rect x="12" y="89"  width="16" height="20" rx="5"/>
+      <rect x="12" y="150" width="16" height="20" rx="5"/>
+      <rect x="12" y="211" width="16" height="20" rx="5"/>
+      <rect x="228" y="28"  width="16" height="20" rx="5"/>
+      <rect x="228" y="89"  width="16" height="20" rx="5"/>
+      <rect x="228" y="150" width="16" height="20" rx="5"/>
+      <rect x="228" y="211" width="16" height="20" rx="5"/>
+    </g>
+    <!-- 재생 삼각형 -->
+    <path d="M 87 74 L 87 182 L 174 128 Z" fill="#ffc44d"/>
+  </g>
+</svg>

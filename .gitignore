@@ -1,0 +1,16 @@
+# 설치할 때 만들어지는 머신 고유 파일
+.python-path
+
+# 파이썬
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# 가상환경 / 에디터
+.venv/
+venv/
+.claude/
+.vscode/
+.idea/
